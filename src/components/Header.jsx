@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   // state
@@ -62,6 +63,10 @@ export default function Header() {
           <option value="light">Light mode</option>
           <option value="system">System</option>
         </select>
+        <Link to="/about">About</Link>
+        <Link to="/login" style={{ color: 'white' }}>
+          Login
+        </Link>
       </nav>
     </header>
   );

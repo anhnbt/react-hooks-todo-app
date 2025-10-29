@@ -23,7 +23,13 @@ li {
   padding: 10px;
   border-bottom: 1px solid gray;
 }
+nav a {
+  color: white;
+}
 .active {
   color: green;
   text-decoration: line-through;
+}
+nav a {
+  margin: 0 10px;
 }
